@@ -6,6 +6,7 @@ import { useAppDispatch, useAppSelector } from '@/app/redux';
 import { setIsSidebarCollapsed } from '@/state';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface SidebarLinkProps {
   href: string;
@@ -70,7 +71,15 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        <div>logo</div>
+        <div>
+          <Image
+              src="https://s3-inventory-management-clubshelf.s3.us-east-1.amazonaws.com/logo.jpg"
+              alt="logo"
+              width={27}
+              height={27}
+              className="rounded-full e-8"
+          />
+        </div>
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
