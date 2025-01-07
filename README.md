@@ -1,10 +1,11 @@
 # ClubShelf, a Full-Stack Inventory Management Dashboard Application
 
-This project is a **Full-Stack Inventory Management Dashboard Application** built using **Next.js**, **NextJS**, **Node.js**, and **AWS**. It is designed to manage products and items efficiently, serving as a valuable tool for the **Cloud Computing Club at the University of Florida (UF)**.
+This project is a **Full-Stack Inventory Management Dashboard Application** built using **ExpressJS**, **NextJS**, **Node.js**, and **AWS**. It is designed to manage products and items efficiently, serving as a valuable tool for the **Cloud Computing Club at the University of Florida (UF)**.
 
 ---
 
-## Features
+## Hosted Link
+https://master.d2wi32cqogqzi7.amplifyapp.com/
 
 ### Frontend
 - **Next.js**: Provides a performant and dynamic frontend framework.
